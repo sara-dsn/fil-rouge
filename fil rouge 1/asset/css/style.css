@@ -1,0 +1,14 @@
+.parallax-body {
+    background-image: url('https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg ');
+    background-size: cover;
+    background-attachment: fixed; /* C'est ce qui crée l'effet de parallaxe */
+    height: 100vh; /* 100% de la hauteur de la fenêtre */
+}
+
+.container {
+    position: relative; /* Pour conserver la mise en page du contenu */
+}
+
+.body-content {
+    padding: 20px; /* Espacement autour du contenu */
+}
